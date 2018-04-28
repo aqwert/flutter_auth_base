@@ -10,7 +10,7 @@ On its own this package does not do anything, but it is required as a dependency
 
  > [flutter_auth_firebase](https://github.com/aqwert/flutter_auth_firebase)
 
-In adition to the dependency that package has on this one, the [flutter_auth_starter](https://aqwert/flutter_auth_starter) also requires it.
+In adition to the dependency that package has on this one, the [flutter_auth_starter](https://github.com/aqwert/flutter_auth_starter) also requires it.
 
 
 # License
