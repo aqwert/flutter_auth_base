@@ -1,3 +1,9 @@
+/*
+ * flutter_auth_base
+ * Copyright (c) 2018 Lance Johnstone. All rights reserved.
+ * See LICENSE for distribution and usage details.
+ */
+
 library flutter_auth_base;
 
 export 'src/auth-provider.dart';

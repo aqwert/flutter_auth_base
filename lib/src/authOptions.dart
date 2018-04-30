@@ -1,3 +1,10 @@
+/*
+ * flutter_auth_base
+ * Copyright (c) 2018 Lance Johnstone. All rights reserved.
+ * See LICENSE for distribution and usage details.
+ */
+
+///
 class AuthOptions {
   AuthOptions({
     this.canVerifyAccount: true,
@@ -10,13 +17,26 @@ class AuthOptions {
     //this.canChangeAvatar: false, // would need to upload image, resize and store in cloud storage.
   });
 
-  bool canSendForgotEmail;
+  ///
+  final bool canSendForgotEmail;
 
-  bool canVerifyAccount;
-  bool canChangePassword;
-  bool canChangeEmail;
-  bool canLinkAccounts;
-  bool canChangeDisplayName;
-  bool canDeleteAccount;
-  //bool canChangeAvatar;
+  ///
+  final bool canVerifyAccount;
+
+  ///
+  final bool canChangePassword;
+
+  ///
+  final bool canChangeEmail;
+
+  ///
+  final bool canLinkAccounts;
+
+  ///
+  final bool canChangeDisplayName;
+
+  ///
+  final bool canDeleteAccount;
+
+  //final bool canChangeAvatar;
 }
