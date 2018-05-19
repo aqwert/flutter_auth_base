@@ -1,6 +1,6 @@
 name: flutter_auth_base
 description: A base authentication package to provide an authentication abstraction
-version: 0.1.2
+version: 0.1.3
 author: Lance Johnstone <flutterlance@outlook.com>
 homepage: https://github.com/aqwert/flutter_auth_base
 
