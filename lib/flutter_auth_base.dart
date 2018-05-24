@@ -15,3 +15,4 @@ export 'src/linkable-provider.dart';
 export 'src/photoUrl-provider.dart';
 export 'src/photoUrlInfo.dart';
 export 'src/auth_required_exception.dart';
+export 'src/user_acceptance_required_exception.dart';

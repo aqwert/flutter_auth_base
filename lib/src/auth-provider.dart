@@ -17,10 +17,10 @@ abstract class AuthProvider {
   String get providerDisplayName;
 
   ///
-  Future<AuthUser> create(Map<String, String> args);
+  Future<AuthUser> create(Map<String, String> args, {termsAccepted = false});
 
   ///
-  Future<AuthUser> signIn(Map<String, String> args);
+  Future<AuthUser> signIn(Map<String, String> args, {termsAccepted = false});
 
   ///
   Future<AuthUser> sendPasswordReset(Map<String, String> args);

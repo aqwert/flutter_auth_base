@@ -31,6 +31,9 @@ abstract class AuthService {
   Future<String> currentUserToken();
 
   ///
+  Future<AuthUser> refreshUser();
+
+  ///
   Future<void> signOut();
 
   ///
