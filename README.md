@@ -14,7 +14,7 @@ In adition to the dependency that package has on this one, the [flutter_auth_sta
 
 ## Implementation
 
-This is completely optional, only if you want to get your hands dirty in implementing a custom authentication provider. It does require providing implmentation of all the [abstract files](https://github.com/aqwert/flutter_auth_base/tree/master/lib/src)
+This is completely optional, only if you want to get your hands dirty in implementing a custom authentication provider. It does require providing implementation of all the [abstract files](https://github.com/aqwert/flutter_auth_base/tree/master/lib/src)
 
 
 
