@@ -28,7 +28,7 @@ abstract class AuthService {
   Future<AuthUser> currentUser();
 
   ///
-  Future<String> currentUserToken();
+  Future<String> currentUserToken({bool refresh = false});
 
   ///
   Future<AuthUser> refreshUser();
